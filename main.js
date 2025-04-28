@@ -34,7 +34,7 @@ function setRoomCode(roomCode) {
 }
 
 function createTrigger() {
-  ScriptApp.newTrigger('resetRoomcode').timeBased().after(10 * 60 * 1000).create();
+  ScriptApp.newTrigger('resetRoomCode').timeBased().after(10 * 60 * 1000).create();
 }
 
 function deleteTriggers() {
