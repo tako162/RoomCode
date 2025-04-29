@@ -44,7 +44,7 @@ function deleteTriggers() {
   }
 }
 
-function resetRoomcode() {
+function resetRoomCode() {
   PropertiesService.getScriptProperties().setProperty("ROOM_CODE", "Expired");
 }
 
